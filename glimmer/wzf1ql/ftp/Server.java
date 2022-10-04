@@ -18,7 +18,7 @@ public class Server extends Thread
     private InputStream i1;
     private byte[] bytes1 = new byte[1024];
     private boolean connected1 = false;
-    private String workingDirectory = "D:\\";
+    private String workingDirectory = "C:\\";
     //private byte[] b_GET = {'\\','G','E','T'};
     private byte[] b_over = {'\\','O','V','E','R'};
 

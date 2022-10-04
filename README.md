@@ -32,4 +32,6 @@ ftp目录：
 
 - 文件传输的暂停、继续和取消
 
+运行环境：SDK18
+
 License:MIT License

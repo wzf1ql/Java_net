@@ -113,6 +113,7 @@ public class Client extends Thread
             {
                 try
                 {
+                    feedback = new byte[1024];
                     int length = i1.read(feedback);
                     o1.write('\\');//反馈表示确认收到了
                     String s = new String(feedback, 0, length, Charset.defaultCharset());
